@@ -348,6 +348,8 @@
     </div>
 
 
+    <!-- MAP -->
+
     <div class="map-container">
 
         <iframe
@@ -361,6 +363,190 @@
 
     </div>
 
+
+    <!-- ONLINE BOOKING -->
+
+    <div class="booking-card">
+
+        <p class="section-label">
+            BOOK ONLINE
+        </p>
+
+        <h3>
+            REQUEST AN APPOINTMENT.
+        </h3>
+
+        <p class="booking-description">
+            Choose your preferred service, date and time. We'll contact you to confirm your appointment.
+        </p>
+
+
+        <form
+            action="https://formspree.io/f/xnpnvawj"
+            method="POST"
+        >
+
+            <div class="form-group">
+
+                <label for="name">
+                    Name
+                </label>
+
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Your name"
+                    required
+                >
+
+            </div>
+
+
+            <div class="form-row">
+
+                <div class="form-group">
+
+                    <label for="phone">
+                        Phone
+                    </label>
+
+                    <input
+                        type="tel"
+                        id="phone"
+                        name="phone"
+                        placeholder="Your phone number"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="email">
+                        Email
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Your email address"
+                        required
+                    >
+
+                </div>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="service">
+                    Service
+                </label>
+
+                <select
+                    id="service"
+                    name="service"
+                    required
+                >
+
+                    <option value="">
+                        Select a service
+                    </option>
+
+                    <option value="Haircut">
+                        Haircut
+                    </option>
+
+                    <option value="Skin Fade">
+                        Skin Fade
+                    </option>
+
+                    <option value="Beard Trim">
+                        Beard Trim
+                    </option>
+
+                    <option value="Haircut + Beard">
+                        Haircut + Beard
+                    </option>
+
+                    <option value="Kids Cut">
+                        Kids Cut
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <div class="form-row">
+
+                <div class="form-group">
+
+                    <label for="date">
+                        Preferred Date
+                    </label>
+
+                    <input
+                        type="date"
+                        id="date"
+                        name="date"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="time">
+                        Preferred Time
+                    </label>
+
+                    <input
+                        type="time"
+                        id="time"
+                        name="time"
+                        required
+                    >
+
+                </div>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="message">
+                    Additional Notes
+                </label>
+
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="4"
+                    placeholder="Anything you'd like us to know?"
+                ></textarea>
+
+            </div>
+
+
+            <button
+                type="submit"
+                class="booking-button"
+            >
+                REQUEST APPOINTMENT
+            </button>
+
+        </form>
+
+    </div>
+
+
+    <!-- PHONE BOOKING -->
 
     <a href="tel:0400000000" class="button">
         CALL TO BOOK
